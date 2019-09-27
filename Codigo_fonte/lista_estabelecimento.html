@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="funcoes.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="FlexHeader">
+			<p id="p1">SIGA - Sistema de Informação para Gestão de Atléticas </p>
+		</div>
+	</header>
+
+	<nav>
+		<div class="FlexNav">
+			<a href="PagIni.html"><img id="Siga" src="/imagens/Siga.png"></a>
+		</div>	
+		<div class="CaixaNav">
+				<a class = "menu" href="index.html">Home</a>
+				<a class = "menu" href="tabela_associado.html" >Lista de Associados</a>
+				<a class = "menu" href="Eventos.html" >Lista de Eventos</a>
+				<a class = "menu" href="lista_estabelecimento.html" >Lista de Estabelecimentos</a>
+				<a class = "menu" href="Cadastro.html" >Cadastro</a>
+		</div>
+		<div class="FlexNav">
+			<a href="Login.html">
+				<img id="Login" src="/imagens/Login.png">
+			</a>
+		</div>
+	</nav>
+	<aside>
+		<div class = "FlexAside">
+			<h2 id = "p2">
+				<br>
+				Acreditamos nas Atléticas Universitárias <br>
+				Queremos fazer a sua Atlética crescer, assim como você!<br>
+				<iframe width="700" height="300" src="https://www.youtube.com/embed/NBaJbdAL-cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</h2>	
+			<h3 id ="p3">
+				<br>
+				Por que durante a faculdade temos que parar de praticar o esporte que amamos por falta de oportunidade, incentivo e estrutura?<br>
+				Por que, mesmo fazendo as melhores festas, ainda precisamos implorar para que grandes marcas apoiem eventos universitários?<br> 
+			
+				Já participamos de Diretoria de Atléticas, Ligas Universitárias e Comitês Organizadores e também estamos cansados de ver essa desvalorização. 
+				Para mudar essa realidade, queremos apoiar sua Atlética de todas as formas possíveis! 
+				Vamos juntos promover uma melhor experiência universitária?
+			</h3>
+		</div>	
+    </aside>
+
+    <section class="pad">
+            
+        <div id="eventos">
+        <table style="width:100%" id="tbl_evento">
+            <p class="txt">Lista de Estabelecimentos Associados</p><br>
+            <tr>
+                <th>Nome do Estabelecimentos</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Número de Promoções Ofertadas</th>
+            </tr>
+            <tr>
+                <td id="td_data">Pane Chop</td>
+                <td id="evento">(32) 3541-1562</td>
+                <td id="td_local">Praça do Espetinho</td>
+                <td id="td_valor">01</td>
+            </tr>
+            <tr>
+                <td id="td_data">Armarinho São José</td>
+                <td id="evento">(32) 3412-6359</td>
+                <td id="td_local">Centro</td>
+                <td id="td_valor">00</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Supermecado Nova Era</td>
+                <td id="evento">(32) 3532-5578</td>
+                <td id="td_local">Louriçal</td>
+                <td id="td_valor">05</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">BARril</td>
+                <td id="evento">(32) 3236-9687</td>
+                <td id="td_local">Avenida Padre Arnaldo Jasen</td>
+                <td id="td_valor">10</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Imperio Central</td>
+                <td id="evento">(32) 3531-9697</td>
+                <td id="td_local">Centro</td>
+                <td id="td_valor">11</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+</body>

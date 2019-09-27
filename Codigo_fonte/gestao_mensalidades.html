@@ -1,0 +1,157 @@
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="funcoes.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="FlexHeader">
+			<p id="p1">SIGA - Sistema de Informação para Gestão de Atléticas </p>
+		</div>
+	</header>
+
+	<nav>
+		<div class="FlexNav">
+			<a href="index.html"><img id="Siga" src="/imagens/Siga.png"></a>
+		</div>	
+		<div class="CaixaNav">
+				<a class = "menu" href="index.html">Home</a>
+				<a class = "menu" href="tabela_associado.html" >Lista de Associados</a>
+				<a class = "menu" href="Eventos.html" >Lista de Eventos</a>
+				<a class = "menu" href="lista_estabelecimento.html"" >Lista de Estabelecimentos</a>
+				<a class = "menu" href="Cadastro.html" >Cadastro</a>
+		</div>
+		<div class="FlexNav">
+			<a href="Login.html">
+				<img id="Login" src="/imagens/Login.png">
+			</a>
+		</div>
+	</nav>
+	<section class="pad">
+		<table style="width:100%" id="tbl_evento">
+            <tr>
+                <th>Nome do Associado</th>
+                <th>Telefone</th>
+                <th>CPF</th>
+                <th>Curso</th>
+                <th>Cargo</th>
+                <th colspan="3">Em debito?</th>
+                
+
+            </tr>
+            <tr>
+                <td id="td_data">André Luiz </td>
+                <td id="evento">(32)9 9144-0519</td>
+                <td id="td_local">011.458.932-59</td>
+                <td id="td_valor">PSI</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+            <tr>
+                <td id="td_data">Guilherme Da Cunha Amaral</td>
+                <td id="evento">(32)9 9144-0519</td>
+                <td id="td_local">102.458.963-25</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value="sim">SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Eduardo Nascimento</td>
+                <td id="evento">(32)9 2257-8963</td>
+                <td id="td_local">350.269.147.-85</td>
+                <td id="td_valor">ADM</td>
+                <td id="td_valor">Tesoureiro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value="sim">SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Marcos Antonio</td>
+                <td id="evento">(32)9 8874-1596</td>
+                <td id="td_local">251.324.965-31</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Guilherme Cordeiro</td>
+                <td id="evento">(32)9 2574-9632</td>
+                <td id="td_local">258.254.147-98</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Jobson De Oliveira</td>
+                <td id="evento">(32)9 2574-9631</td>
+                <td id="td_local">218.244.147-88</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Maria Fernanda Oliveira</td>
+                <td id="evento">(32)9 2574-9682</td>
+                <td id="td_local">251.253.247-08</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Diretora Esportiva</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Luiza Mendes</td>
+                <td id="evento">(32)9 6985-9632</td>
+                <td id="td_local">298.454.140-99</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+            
+            <tr>
+                <td id="td_data">Leticia Bressam</td>
+                <td id="evento">(32)9 7788-5511</td>
+                <td id="td_local">251.255.146-91</td>
+                <td id="td_valor">INF</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+
+            <tr>
+                <td id="td_data">Ana Amélia</td>
+                <td id="evento">(32)9 7789-5511</td>
+                <td id="td_local">251.255.156-91</td>
+                <td id="td_valor">PSI</td>
+                <td id="td_valor">Membro</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="sim" value=""sim>SIM</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">NÃO</td>
+                <td id="td_valor"><input class="caixatxt" type="checkbox" name="nao" value="nao">Isento</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
